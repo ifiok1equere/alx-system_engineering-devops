@@ -6,3 +6,4 @@
 5-listfilesdigitonly: contains command that when executed displays content of current directory in long format, hidden files showing with user and group IDs displayed numerically
 6-firstdirectory: contains command that when executed will create a directory in the tmp directory
 7-movethatfile: contains command that when executed moves the betty file from the tmp directory to the tmp/my_first_directory
+8-firstdelete: contains command that when executed will delete the file betty from the /temp/my_first_directory directory
