@@ -7,3 +7,4 @@
 6-firstdirectory: contains command that when executed will create a directory in the tmp directory
 7-movethatfile: contains command that when executed moves the betty file from the tmp directory to the tmp/my_first_directory
 8-firstdelete: contains command that when executed will delete the file betty from the /temp/my_first_directory directory
+9-firstdirdeletion: contains command that when executed will delete the /tmp/my_first_directory directory
