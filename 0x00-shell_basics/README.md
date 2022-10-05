@@ -5,3 +5,4 @@
 4-listmorefiles: contains command that when executed displays current directory contents, including hidden files starting with .
 5-listfilesdigitonly: contains command that when executed displays content of current directory in long format, hidden files showing with user and group IDs displayed numerically
 6-firstdirectory: contains command that when executed will create a directory in the tmp directory
+7-movethatfile: contains command that when executed moves the betty file from the tmp directory to the tmp/my_first_directory
