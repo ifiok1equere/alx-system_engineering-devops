@@ -13,3 +13,4 @@
 12-file_type: contain command that when executed will print the type of the file named iamafile
 13-symbolic_link: contain command that when executed creates a symbolic link to /bin/ls named __ls__
 14-copy_html: contains code that when executed Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+100-lets_move: contain command that Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u
