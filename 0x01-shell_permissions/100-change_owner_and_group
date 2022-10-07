@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown vincent:staf /root
+chown vincent:staf *
