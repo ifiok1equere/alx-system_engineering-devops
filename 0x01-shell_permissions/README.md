@@ -4,3 +4,4 @@
 3-new_owner: contains command that when executed changes ownership of the file hello to the user betty
 4-empty: contain command that when executed creates an empty file hello
 5-execute: contain command that when executed adds execute permission to the owner of the file hello
+6-multiple_permissions: contain command that when executed Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
