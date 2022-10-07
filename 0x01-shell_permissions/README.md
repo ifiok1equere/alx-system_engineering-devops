@@ -7,3 +7,4 @@
 6-multiple_permissions: contain command that when executed Write a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 7-everybody: contain command that when executed will Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
 8-James_Bond: contain command that when executed sets the permission for the file hello to no permissions for both Owner and Group but all permissions given toother users
+9-John_Doe: contain command that when executed sets the mode of the hello file to -rwxr-x-wx
