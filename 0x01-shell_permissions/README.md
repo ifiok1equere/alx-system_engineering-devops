@@ -9,3 +9,4 @@
 8-James_Bond: contain command that when executed sets the permission for the file hello to no permissions for both Owner and Group but all permissions given toother users
 9-John_Doe: contain command that when executed sets the mode of the hello file to -rwxr-x-wx
 10-mirror_permissions: contain command that when executed mirrors or copies the permissions of the olleh file into the hello file
+11-directories_permissions: contain command that when executed Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
