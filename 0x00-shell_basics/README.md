@@ -19,3 +19,4 @@
 103-commas: contain the command that when executed lists all the files and directories of the current directory, separated by commas (,)
 school.mgc: contain code that when executed Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
 0-iam_betty: contains code that when executed switches the current user to betty
+school: contain command that when executed Create a magic file school.mgc that can be used with the command file to detect School data files
