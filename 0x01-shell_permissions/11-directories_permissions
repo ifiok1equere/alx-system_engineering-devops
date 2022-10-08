@@ -1,2 +1,2 @@
 #!/bin/bash
-find /root/alx-system_engineering-devops -type d -exec chmod 711 {} +
+find . -type d -exec chmod ugo+x {} +
