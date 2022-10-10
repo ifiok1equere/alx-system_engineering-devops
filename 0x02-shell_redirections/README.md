@@ -7,3 +7,4 @@
 6-third_line: displays the third line of the file iacta
 7-file: creates a file with a name having special characters
 8-cwd_state: write the result of a command into a file
+10-no_more_js: deletes all the regular files with a .js extension in the current directory and subfolders
