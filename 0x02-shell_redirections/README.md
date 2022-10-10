@@ -8,3 +8,4 @@
 7-file: creates a file with a name having special characters
 8-cwd_state: write the result of a command into a file
 10-no_more_js: deletes all the regular files with a .js extension in the current directory and subfolders
+12-newest_files: displays the 10 newest files in the current directory
