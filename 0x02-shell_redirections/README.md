@@ -18,3 +18,4 @@
 19-AZ: command replaces every occurence of characters A ans c with Z and e
 20-hiago: command removes all letters c and C from the input
 21-reverse: command reverses the string from a standard input
+22-users_and_homes: script that displays all users and their home directories, sorted by users
