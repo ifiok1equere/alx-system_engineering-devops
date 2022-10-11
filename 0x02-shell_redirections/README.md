@@ -19,3 +19,5 @@
 20-hiago: command removes all letters c and C from the input
 21-reverse: command reverses the string from a standard input
 22-users_and_homes: script that displays all users and their home directories, sorted by users
+9-duplicate_last_line: command duplicates the last line of the file inside the file
+11-directories: command count the total number of directories and sub directories in the current directory
