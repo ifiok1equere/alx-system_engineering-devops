@@ -1,1 +1,2 @@
-0-alias: command to create an alias that deletes all files in a working directory
+SHELL NAVIGATION PROJECT
+1-hello_you: command prints "hello user" where the user is the current linux user
