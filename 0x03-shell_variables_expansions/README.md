@@ -4,3 +4,4 @@ SHELL NAVIGATION PROJECT
 3-paths: command counts the number of directories in #PATH
 4-global_variables: command lists environment variables
 5-local_variables: script that lists all local variables and environment variables, and functions
+6-create_local_variable: creates a new local variable
