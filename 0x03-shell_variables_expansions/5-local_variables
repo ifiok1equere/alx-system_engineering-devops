@@ -1,2 +1,2 @@
 #!/bin/bash
-(env; set; declare -f | less)
+echo $(env; set; declare -f | less)
