@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+x 11-directories_permissions
+find 11-directories_permissions -type d -exec chmod ugo+x {} \;
