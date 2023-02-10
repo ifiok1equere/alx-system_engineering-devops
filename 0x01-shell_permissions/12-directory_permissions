@@ -1,2 +1,2 @@
 #!/bin/bash
-exec $(chmod 751 $(mkdir my_dir))
+echo $(chmod 751 $(mkdir my_dir))
