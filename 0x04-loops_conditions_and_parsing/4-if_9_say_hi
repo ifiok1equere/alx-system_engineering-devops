@@ -8,9 +8,8 @@ do
     if [ $count -eq 9 ]
     then
 	echo "Hi"
-   	count=$((count + 1))
     else
 	echo "Best School"
-   	count=$((count + 1))
     fi
+    count=$((count + 1))
 done
