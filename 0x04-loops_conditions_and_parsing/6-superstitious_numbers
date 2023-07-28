@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is loopping x times
+# This script is displaying "bad luck/good luck" 20 times
 
 count=1
 
@@ -12,7 +12,7 @@ do
     elif [ $count -eq 9 ]
     then
 	echo $count
-	echo "good luck from Japan"
+	echo "bad luck from Japan"
     elif [ $count -eq 17 ]
     then
 	echo $count
