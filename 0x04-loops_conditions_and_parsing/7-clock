@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script is loops through time
+
+hr=0
+min=1
+
+while [ $hr -le 12 ]
+do
+    echo "Hour: $hr"
+    while [ $min -le 59 ]
+    do
+        echo $min
+	min=$((min + 1))
+    done
+    min=1
+    hr=$((hr + 1))
+done
