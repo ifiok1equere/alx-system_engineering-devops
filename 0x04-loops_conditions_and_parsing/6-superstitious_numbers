@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# This script is loopping x times
+
+count=1
+
+while [ $count -le 20 ]
+do
+    if [ $count -eq 4 ]
+    then
+	echo $count
+	echo "bad luck from China"
+    elif [ $count -eq 9 ]
+    then
+	echo $count
+	echo "good luck from Japan"
+    elif [ $count -eq 17 ]
+    then
+	echo $count
+	echo "bad luck from Italy"
+    else
+	echo $count
+    fi
+    count=$((count + 1))
+done
