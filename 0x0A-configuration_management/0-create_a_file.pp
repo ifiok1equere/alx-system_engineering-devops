@@ -1,4 +1,4 @@
-# This declares a file resource.
+# This puppet manifest declares a file resource.
 
 file { '/tmp/school':
   ensure  => 'file',
@@ -7,3 +7,4 @@ file { '/tmp/school':
   group   => 'www-data',
   content => 'I love puppet',
 }
+
