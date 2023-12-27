@@ -2,4 +2,3 @@
 # This script creates a customized private key
 
 ssh-keygen -t rsa -b 4096 -N betty -f school
-ssh -i school ubuntu@34.227.94.114
