@@ -1,18 +1,9 @@
-# 100-puppet_ssh_config.pp
+# use puppet to make changes to ssh config file
 
 class ssh_config {
-  include stdlib
-
-  file_line { 'Turn off passwd auth':
-    ensure => present,
-    path   => '/home/iwequer/.ssh/config',  # Update the path to the client-side SSH config file
-    line   => 'PasswordAuthentication no',
-  }
-
-  file_line { 'Declare identity file':
-    ensure => present,
-    path   => '/home/iwequer/.ssh/config',  # Update the path to the client-side SSH config file
-    line   => 'IdentityFile ~/.ssh/school',
+  file { '/home/iwequer/.ssh/config':
+    ensure  => present,
+    content => "Host  *\n    HostName 34.227.94.114\n    User ubuntu\n    IdentityFile ~/.ssh/school\n    IdentitiesOnly yes\n",
   }
 }
 
