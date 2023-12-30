@@ -1,5 +1,4 @@
-Host *
+Host  34.227.94.114
     HostName 34.227.94.114
     User ubuntu
     IdentityFile ~/.ssh/school
-    IdentitiesOnly yes
