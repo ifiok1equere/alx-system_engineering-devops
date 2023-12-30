@@ -1,13 +1,13 @@
 # use puppet to configure ssh
 
 file_line { 'Turn off passwd auth':
-    path  => '/home/iwequer/.ssh/config',
+    path  => '/etc/ssh/ssh_config',
     line  => '    PasswordAuthentication no',
     match => '^.*PasswordAuthentication.*',
 }
 
 file_line { 'Declare identity file':
-    path  => '/home/iwequer/.ssh/config',
+    path  => '/etc/ssh/ssh_config',
     line  => '    IdentityFile ~/.ssh/school',
     match => '^.*IdentityFile.*',
 }
