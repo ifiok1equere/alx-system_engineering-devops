@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script dispalys content in a directory
+
+l_s=$(ls)
+
+for content in $l_s
+do
+    extracted_word=$(echo "$content" | cut -d '-' -f 2-)
+    echo "$extracted_word"
+done
