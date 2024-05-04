@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Bash script that list PID and a bash.
+
+kill "$(ps aux | pgrep "4-to_infinity_and_beyond")"

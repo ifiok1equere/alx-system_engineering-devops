@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Bash script to print indefinitely.
+
+count=1
+
+while [ $count -eq 1 ]
+do
+   echo "To infinity and beyond"
+   count=$((count + 0))
+done
