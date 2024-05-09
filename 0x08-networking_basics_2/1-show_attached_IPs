@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+#script to print active network interface IPV4 addresses
+ifconfig | grep 'inet' | grep -v 'inet6' | awk '{print $2}'
