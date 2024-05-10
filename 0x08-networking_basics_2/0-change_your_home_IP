@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
+# This script configures an Ubuntu server
 
-#script to change localhost IP
+# Creating a copy of /etc/hosts
+cp /etc/hosts ~/hosts.new
 
-file="etc/hosts"
-cd /
-echo "127.0.0.2		localhost" > $file
-echo "8.8.8.8		facebook.com" >> $file
+# Using sed to modify ~/hosts.new
+sed -i 's/^127\.0\.0\.1[[:space:]]*localhost$/127.0.0.2 localhost/' ~/hosts.new
+sed -i '/^127\.0\.0\.2[[:space:]]*localhost$/a 8.8.8.8\tfacebook.com' ~/hosts.new
+
+# Overwriting /etc/hosts with the modified ~/hosts.new
+sudo cp -f ~/hosts.new /etc/hosts
